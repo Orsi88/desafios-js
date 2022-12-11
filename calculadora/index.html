@@ -9,28 +9,29 @@
 </head>
 <body>
     <div class="main">
-        <form action="">
+        <form action="" name="Calculator">
+
             <input type="text" class="text maincolor" name="text1" disabled>
             <input type="text" class="text maincolor" name="text12" value="&#8998;" onclick="location.reload()"><br>
 
-            <input type="button" class="num maincolor" name="btn9" value="9" onclick="displaynumb(.value)">
-            <input type="button" class="num maincolor" name="btn8" value="8" onclick="displaynumb(.value)">
-            <input type="button" class="num maincolor" name="btn7" value="7" onclick="displaynumb(.value)">
-            <input type="button" class="num soma" name="addbtn" value="+" onclick="displaynumb(.value)"><br>
+            <input type="button" class="num maincolor" name="btn9" value="9" onclick="displaynum(btn9.value)">
+            <input type="button" class="num maincolor" name="btn8" value="8" onclick="displaynum(btn8.value)">
+            <input type="button" class="num maincolor" name="btn7" value="7" onclick="displaynum(btn7.value)">
+            <input type="button" class="num soma" name="addbtn" value="+" onclick="displaynum(addbtn.value)"><br>
 
-            <input type="button" class="num maincolor" name="btn6" value="6" onclick="displaynumb(.value)">
-            <input type="button" class="num maincolor" name="btn5" value="5" onclick="displaynumb(.value)">
-            <input type="button" class="num maincolor" name="btn4" value="4" onclick="displaynumb(.value)">
-            <input type="button" class="num sub" name="subbtn" value="-" onclick="displaynumb(.value)"><br>
+            <input type="button" class="num maincolor" name="btn6" value="6" onclick="displaynum(btn6.value)">
+            <input type="button" class="num maincolor" name="btn5" value="5" onclick="displaynum(btn5.value)">
+            <input type="button" class="num maincolor" name="btn4" value="4" onclick="displaynum(btn4.value)">
+            <input type="button" class="num sub" name="subbtn" value="-" onclick="displaynum(subbtn.value)"><br>
 
-            <input type="button" class="num maincolor" name="btn3" value="3" onclick="displaynumb(.value)">
-            <input type="button" class="num maincolor" name="btn2" value="2" onclick="displaynumb(.value)">
-            <input type="button" class="num maincolor" name="btn1" value="1" onclick="displaynumb(.value)">
-            <input type="button" class="num mult" name="multpl" value="*" onclick="displaynumb(.value)"><br>
+            <input type="button" class="num maincolor" name="btn3" value="3" onclick="displaynum(btn3.value)">
+            <input type="button" class="num maincolor" name="btn2" value="2" onclick="displaynum(btn2.value)">
+            <input type="button" class="num maincolor" name="btn1" value="1" onclick="displaynum(btn1.value)">
+            <input type="button" class="num mult" name="multpl" value="*" onclick="displaynum(multpl.value)"><br>
             
-            <input type="button" class="num ponto" name="btnpont" value="." onclick="displaynumb(.value)">
-            <input type="button" class="num maincolor" name="btn0" value="0" onclick="displaynumb(.value)">
-            <input type="button" class="num igual" name="btnigua" value="=" onclick="displaynumb(.value)">
+            <input type="button" class="num ponto" name="btnpont" value="." onclick="displaynum(btnpont.value)">
+            <input type="button" class="num maincolor" name="btn0" value="0" onclick="displaynum(btn0.value)">
+            <input type="button" class="num igual" name="btnigua" value="=" onclick="displaynum(btnigua.value)">
             <input type="button" class="num barra" name="btnbar" value="/" onclick="text1.value"><br>
             
             <script src="script.js"></script>
