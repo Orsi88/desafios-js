@@ -1,11 +1,9 @@
 @charset "UTF-8";
 
-
 * {
     margin: 0;
     padding: 0;
 }
-
 body{
     width: 100%;
     height: 100vh;
@@ -15,7 +13,6 @@ body{
     background-image: url('973965.jpg');
     background-size: cover;
 }
-
 form {
     width: 300px;
     height: 500px;
@@ -25,13 +22,11 @@ form {
     flex-direction: column;
     align-items: center;
 }
-
 .visor {
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
-
 .num {
     width: 65px;
     height: 65px;
@@ -41,12 +36,10 @@ form {
     font-size: 23px;
     transition: 0.3s;
 }
-
 .num:hover{
     filter: opacity(50%);
     cursor: pointer;
 }
-
 #campo {
     width: 200px;
     height: 100px;
@@ -56,9 +49,7 @@ form {
     justify-content: end;
     text-align: start;
     font-size: 23px;
-    margin-top: 30px;
- 
-    
+    margin-top: 30px;    
 }
 
 .separa {
