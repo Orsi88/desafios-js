@@ -10,7 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-image: url('973965.jpg');
+    background-size: cover;
 }
 form {
     width: 300px;
